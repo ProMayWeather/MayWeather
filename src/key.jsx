@@ -1,0 +1,4 @@
+module.exports = {
+  WEATHER_KEY: "2e106f17b95b48110582acd86961679f",
+  WEATHER_KEY2: "6b91b5db92e34b9438d079e8e5bdf016"
+};

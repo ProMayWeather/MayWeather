@@ -1,0 +1,94 @@
+.modal-title{
+  font-family: 'Montserrat', sans-serif; 
+  font-size-adjust: auto;
+}
+.modal-fade{
+  display: block !important;
+  overflow: scroll;
+}
+
+.modal-dialog{
+  overflow-y: initial !important
+}
+.modal-body{
+  height: 500px;
+  overflow-y: auto;
+}
+
+.card-img-top {
+  width: 20%;
+  align-self: left;
+}
+
+.bg-info {
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ebdb4, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #478bb8, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.button{
+  background-color:#a8c8d144;
+  border-color: #74b4bde3;
+}
+
+.button-forecast {
+  background-color:#a8c8d144;
+  color: black; 
+  border: 2px solid #74b4bde3;
+}
+
+.button-forecast:hover {
+  background-color: #4aaec0;
+  color: white;
+}
+
+.card-bg{
+  background-color:#91b9c444;
+  border-color: #afebe6;
+  border-width: '10px';
+  font-size: '100px';
+}
+
+.card-uv{
+  background-color:#bdd3dbcc;
+  border-color: #74fff3;
+  border-width: '10px';
+  font-size: '100px';
+}
+
+.text-location{
+  color:#fdfdfd;
+  text-shadow: 2px 2px 4px #291616;
+  border-color: aliceblue;
+  border-width:'20px';
+}
+
+.img-forecast{
+  align-self: center;
+}
+html, body{
+    height: 100%;
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ebdb4, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #478bb8, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #20A2FF;  
+    background: -webkit-linear-gradient(120DEG, #20A2FF, #034EA2);  
+    background: linear-gradient(120DEG, #20A2FF, #034EA2); */
+    /* background-image: linear-gradient(to right top, #243728, #145045, #006871, #007ea7, #1a8fda);  */
+  }
+
+.header{
+  font-family: 'Montserrat', sans-serif; 
+  color: aliceblue;
+}
+
+.color-yellow{
+  background:rgb(233, 233, 4)
+}
+
+.color-violet{
+  background:rgb(66, 10, 119)
+}
+
