@@ -7,21 +7,21 @@ const ViewCurrent = props => {
   return (
     <div className="container">
       <div className="row justify-content-md-center text-dark card-bg" style={{padding: '20px'}}>
-        <div className="col-2 text-center text-dark">
+        <div className="col-sm text-center text-dark">
           <img
             width="80"
             height="80"
             src={URL_LOC_ICON + props.icon + FORMAT}
             alt=""
           />
-          <div >
+          <div className="text-center">
             <h5 className="font-weight-bold" style={{fontSize: '35px'}}>
               {props.temp} C°
             </h5>
           </div>
           <div style={{fontSize: '28px', color: '#f1f1f1', borderColor: '#000000'}}>{props.main}</div>
         </div>
-        <div className="col-2" style={{fontSize: '18px'}}>
+        <div className="col-sm text-center" style={{fontSize: '18px'}}>
           <p>
             <b className="font-weight-bold">Pressure : </b>
             {props.pressure} hpm
@@ -39,7 +39,7 @@ const ViewCurrent = props => {
             {props.speed} km/h
           </p>
         </div>
-        <div className="col-2" style={{fontSize: '18px'}}>
+        <div className="col-sm text-center" style={{fontSize: '18px'}}>
           <p>
             <b className="font-weight-bold">Humidity : </b>
             {props.humidity} %

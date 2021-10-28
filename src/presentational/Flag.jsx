@@ -8,15 +8,15 @@ const SIZE = "/16x12/";
 
 const Flag = ({ country }) => {
   return (
-    <div className="row justify-content-md-center" style={{padding: '20px'}}>
-      <p>
-        <img
+    <div className="container" style={{padding: '10px'}}>
+      <div className="form-row justify-content-center">
+          <img
           width="40"
           height="30"
           src={URL_COUNTRY_FLAG + SIZE +  country + FORMAT}
           alt=""
         />
-      </p>
+      </div>
     </div>
   );
 };
